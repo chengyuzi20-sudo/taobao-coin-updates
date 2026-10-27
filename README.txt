@@ -1,9 +1,21 @@
 v1.3.2 自定义 HTTPS 更新源（不切换 GitHub 账号）
 
-适用：当前 gh 登录的是 chengyuzi20-sudo，而 Doplars/TaobaoCoinAssistant
-没有写权限。用你自己账号下的 GitHub Pages 托管更新清单即可，不需要动
-Doplars 仓库。
+已执行完成（2026-10-27）：
+  仓库：https://github.com/chengyuzi20-sudo/taobao-coin-updates
+  清单：https://chengyuzi20-sudo.github.io/taobao-coin-updates/update.json
+  Pages 状态：built（HTTPS 已启用）
 
+手机 App → 应用更新 → 更新设置 → 填上面的清单地址 → 保存 → 检查更新。
+v1.3.1 (109) 会看到 v1.3.2 (110)。
+
+以后发新版：
+  1. 把新的 4 个 APK 复制到本目录（文件名保持 app-<abi>-debug.apk）；
+  2. 更新 update.json 的 versionCode/versionName/notes/sha256；
+  3. git add . && git commit -m "Release vX.Y.Z" && git push
+  Pages 会自动重建，通常 1–2 分钟生效。
+
+以下为首次创建步骤（已完成，留作参考）
+------------------------------------------------------------------
 一、用当前账号创建公开仓库并上传（PowerShell）
 ------------------------------------------------------------------
 cd "D:\淘宝双十一自动化项目\dist\pages-upload"
