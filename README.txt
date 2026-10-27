@@ -1,4 +1,7 @@
-v1.3.2 自定义 HTTPS 更新源（不切换 GitHub 账号）
+v1.3.3 自定义 HTTPS 更新源（不切换 GitHub 账号）
+
+当前版本：v1.3.3 (versionCode 111)，2026-10-27 发布。
+已发布版本：v1.3.2 (110) → v1.3.3 (111)。
 
 已执行完成（2026-10-27）：
   仓库：https://github.com/chengyuzi20-sudo/taobao-coin-updates
@@ -6,7 +9,7 @@ v1.3.2 自定义 HTTPS 更新源（不切换 GitHub 账号）
   Pages 状态：built（HTTPS 已启用）
 
 手机 App → 应用更新 → 更新设置 → 填上面的清单地址 → 保存 → 检查更新。
-v1.3.1 (109) 会看到 v1.3.2 (110)。
+v1.3.2 (110) 会看到 v1.3.3 (111)。
 
 以后发新版：
   1. 把新的 4 个 APK 复制到本目录（文件名保持 app-<abi>-debug.apk）；
@@ -42,7 +45,7 @@ Set-Content -Path pages.json -Value '{"source":{"branch":"main","path":"/"}}' -E
 ------------------------------------------------------------------
 https://chengyuzi20-sudo.github.io/taobao-coin-updates/update.json
 
-能看到 versionCode 110 / versionName 1.3.2 就说明 Pages 已生效。
+能看到 versionCode 111 / versionName 1.3.3 就说明 Pages 已生效。
 
 三、手机上切换更新源
 ------------------------------------------------------------------
@@ -50,7 +53,7 @@ App → 应用更新 → 更新设置 → 填：
 https://chengyuzi20-sudo.github.io/taobao-coin-updates/update.json
 → 保存 → 检查更新。
 
-v1.3.1 (109) 会看到 v1.3.2 (110)，下载后校验 SHA-256、包名、versionCode
+v1.3.2 (110) 会看到 v1.3.3 (111)，下载后校验 SHA-256、包名、versionCode
 和签名，再由系统安装器覆盖安装。
 
 说明：
