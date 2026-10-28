@@ -1,0 +1,94 @@
+{
+  "schemaVersion": 1,
+  "id": "taobao",
+  "displayName": "淘宝",
+  "package": "com.taobao.taobao",
+  "fallbackCampaign": "taobao.coin.daily",
+  "regions": {
+    "general": { "top": 140, "bottom": 80, "minY": 250, "maxWidth": 720, "maxBottom": 1.0 },
+    "nav": { "top": 80, "bottom": 60, "minY": 80, "maxWidth": 840, "maxBottom": 0.72 },
+    "panel": { "top": 120, "bottom": 70, "minY": 140, "maxWidth": 840, "maxBottom": 0.94 },
+    "search": { "top": 90, "bottom": 60, "minY": 90, "maxWidth": 860, "maxBottom": 0.62 },
+    "taskList": { "top": 190, "bottom": 70, "minY": 190, "maxWidth": 960, "maxBottom": 1.0 }
+  },
+  "anchors": {
+    "coinHome": ["淘金币", "搜索抵钱", "玩游戏", "找好友", "快速赚", "明天可领", "后天", "铂金会员", "足迹加抵", "升级赛车", "去赚金币", "去赚能量", "明日领", "日常版"],
+    "coinEntry": ["领淘金币", "淘金币"],
+    "coinSignIn": ["签到领金币", "签到领淘金币"],
+    "coinPanel": ["今日速赚", "更多金币等你赚", "更多专享福利", "完成下方任务得额外金币", "任务到访得金币", "每日来任务面板", "赚金币抵钱"],
+    "coinStrongSection": ["更多专享福利", "完成下方任务得额外金币", "今日速赚"],
+    "coinRewardHeader": ["完成下方任务得额外金币"],
+    "coinCollapsed": ["更多金币等你赚"],
+    "coinQuickEarn": ["今日速赚"],
+    "coinClassic": ["赚金币抵钱", "今日累计奖励"],
+    "coinQuickDone": ["今日快速赚奖励已拿完", "快速赚奖励已拿完"],
+    "coinTomorrow": ["记得明天再来"],
+    "coinExpand": ["展开"],
+    "coinMore": ["更多金币等你赚", "更多金币"],
+    "coinTaskActions": ["领取奖励", "去完成", "去逛逛", "逛一逛", "去浏览", "去看看", "去领取", "立即领", "搜一下", "搜一搜", "逛一下", "点击得"],
+    "coinPreferred": ["搜一搜", "浏览", "好物", "精选", "沉浸看", "看看#", "逛逛", "逛一逛"],
+    "coinExpandedHints": ["发现精选好物", "淘金币趣味课堂", "任务到访得金币", "逛清单", "看看你关注", "搜一搜你心仪的宝贝", "更多专享福利"],
+    "coinPanelBottom": ["收起更多任务", "以上金币额均为最高可得", "以实际可得数为准"],
+    "coinReward": ["今日累计奖励", "立即领取", "领取奖励"],
+    "campaignStrong": ["去赚能量", "累计任务奖励"],
+    "campaignList": ["累计任务奖励"],
+    "campaignEntry": ["去赚能量"],
+    "campaignWeak": ["金币日常版", "日常版", "活动版", "升级赛车", "去赚金币"],
+    "campaignTaskActions": ["去完成", "去浏览", "去逛逛"],
+    "campaignDuration15": ["浏览15", "15秒", "15s", "下滑浏览"],
+    "campaignDuration5": ["浏览5秒", "5秒", "5s"],
+    "campaignSearch": ["搜一搜", "搜索发现"],
+    "campaignProduct": ["金币已抵", "金币热卖价"],
+    "campaignClaim": ["立即领取"],
+    "campaignTaskDone": ["任务已完成", "奖励已发放", "已完成浏览"],
+    "verification": ["请拖动下方滑块完成验证", "请拖动下方滑块", "验证失败", "通过验证以确保正常访问", "请按住滑块", "拖动到最右边", "向右拖动", "请完成安全验证", "请完成验证", "滑动验证", "滑块验证", "人机验证", "验证码", "访问过于频繁", "网络环境存在风险", "账号存在风险", "异常流量"],
+    "popupStrong": ["已尝试添加组件", "再次添加", "前往桌面", "添加失败", "一键享受金币额外抵扣", "你加购的", "出行玩乐", "订票订酒店", "闪购福利"],
+    "popupWeak": ["淘宝闪购", "加抵金", "抵金", "额外抵", "去看看"],
+    "popupActionWords": ["去看看", "前往", "再次", "立即", "一键", "添加", "使用", "查看", "开启"],
+    "noisePrefixes": ["活动时间", "已售", "成交", "近一个月", "行业新趋"],
+    "searchKeysAscii": ["iphone", "macbook", "xiaomi", "camera", "milk", "nike", "coffee", "keyboard", "headphones", "sneakers", "backpack", "watch", "lamp", "notebook", "speaker", "charger", "jacket", "perfume", "skincare", "toy", "cup", "desk", "chair", "pillow", "towel", "socks", "sunglasses", "earbuds", "powerbank", "mouse"]
+  },
+  "campaigns": [
+    {
+      "id": "taobao.campaign.double11",
+      "displayName": "双十一大促",
+      "window": { "start": "10-01", "end": "11-12" },
+      "priority": 100,
+      "probe": {
+        "type": "pageMarker",
+        "strong": ["去赚能量", "累计任务奖励"],
+        "weak": ["金币日常版", "活动版"],
+        "deepLink": ""
+      },
+      "runtimeId": "campaignTaskList"
+    },
+    {
+      "id": "taobao.campaign.618",
+      "displayName": "618大促",
+      "window": { "start": "05-01", "end": "06-20" },
+      "priority": 100,
+      "probe": {
+        "type": "pageMarker",
+        "strong": ["去赚能量", "累计任务奖励"],
+        "weak": ["金币日常版", "活动版"],
+        "deepLink": ""
+      },
+      "runtimeId": "campaignTaskList"
+    },
+    {
+      "id": "taobao.coin.daily",
+      "displayName": "淘金币日常",
+      "window": { "type": "always" },
+      "priority": 0,
+      "probe": { "type": "dateOnly" },
+      "runtimeId": "coinDaily",
+      "fallback": true
+    }
+  ],
+  "rules": {
+    "skip": ["淘金币趣味课堂", "百度极速版", "下单", "充值", "助力", "评价", "答题", "游戏", "闪购", "邀请", "开卡", "限时", "领优惠", "点击商品", "UC", "菜鸟", "消消乐", "闲鱼", "百度", "课堂", "桌面", "回访", "爱心蛋", "心蛋", "极速版", "通知"],
+    "external": ["蚂蚁森林", "蚂蚁庄园", "神奇海洋", "芝麻信用", "商家积分", "金豆夺宝", "支付宝农场", "支付宝", "蚂蚁"],
+    "search": ["搜一搜", "搜索", "心仪的宝贝"],
+    "browse": []
+  }
+}

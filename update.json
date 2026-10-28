@@ -1,23 +1,23 @@
 {
-  "versionCode": 111,
-  "versionName": "1.3.3",
-  "notes": "v1.3.3：修复本地 ADB mDNS 服务类型（_adb-tls-pairing._tcp / _adb-tls-connect._tcp），新增系统属性/缓存端口/本机端口扫描兜底、可操作失败提示和 LocalAdb 日志。",
+  "versionCode": 115,
+  "versionName": "1.4.0",
+  "notes": "v1.4.0：五层插件架构升级 + 双11/618大促自动识别 + 前端交互全面优化（主卡实时轮次遥测与4步流转高亮、待命态执行计划预览、强制大促目标选择、今日进度与毒丸看板、一键重置探测与毒丸、任务规则实时命中测试器、日志三档过滤与语义着色、配置热更新状态透出）；并适配双11活动版淘金币页：自动点击右侧‘日常版’切回日常视图、以‘去赚金币’兜底打开任务面板、自动关闭‘读取了剪贴板’提示，不再因页面没有‘赚更多金币’而空转失败；大促冷启动会先进入淘金币页再找入口。",
   "apks": {
     "arm64-v8a": {
       "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-arm64-v8a-debug.apk",
-      "sha256": "a77dec17d39cdcea73efcd1282e8f5860bc119f3c449dcf745fb6db3cf7819a0"
+      "sha256": "c5416024d9527eebd5f5887d4524b77d7d289d7015503d768a3fd1045f5c6cde"
     },
     "armeabi-v7a": {
       "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-armeabi-v7a-debug.apk",
-      "sha256": "fdbc2dc0a308f4e65d66b3e88dd6d0c7c69c68e617812e924af65b7398ec2db8"
+      "sha256": "bb1b154a7dc73fbf9fd3faee623bc865162560956fe69388fd5610b85fa4da38"
     },
     "x86": {
       "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-x86-debug.apk",
-      "sha256": "d2c6294a4f83aa3e536b5d93956173a5843a6ddfb6cffb37b7720ed77c72e0d2"
+      "sha256": "bf2b3435850a835524c94cc1d51d1cf38722f8bedaef13074efd1760af7ddcf9"
     },
     "x86_64": {
       "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-x86_64-debug.apk",
-      "sha256": "07a7fcbd9a833130abe4b833a84937319464c392dd2478bb8f4357d915ed041e"
+      "sha256": "9545858613b80c7446e570cb7826baccafaf126616901234646c9fd363a6d927"
     }
   }
 }
