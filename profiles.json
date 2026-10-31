@@ -2,9 +2,9 @@
   "profiles": [
     {
       "id": "taobao",
-      "version": 2,
+      "version": 8,
       "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/profiles/taobao.json",
-      "sha256": "b20360eeb84108f7a4ad59a4d602d469f8c642c6d83e6d5afb8dea406c3a9af0"
+      "sha256": "425a0d5c94dc90e19e6749a15d8278732956e2f1a26d9366722d20eaaa0de528"
     }
   ]
 }
