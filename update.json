@@ -2,22 +2,22 @@
   "apks": {
     "arm64-v8a": {
       "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-arm64-v8a-release.apk",
-      "sha256": "ceefc2e5b19da97e6e007ef82e41057e5d1e05c6230e77ce8c457554b50854c7"
+      "sha256": "75c04c4df2e1ae0804d39a3a1e6c9fc5e6a584dde3db6acd5dd43630241fa62f"
     },
     "armeabi-v7a": {
       "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-armeabi-v7a-release.apk",
-      "sha256": "353e32eccb39eafd88ef8ae6a61b170ce5a1e7a32421b06f6b45e06e335151de"
+      "sha256": "ce9a929933ce9fb4487b2ef218dc0a825847e85189d9eb4efdff3f0c5bae14fa"
     },
     "x86": {
       "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-x86-release.apk",
-      "sha256": "534ce6666c5f0d62abb473599ee16399a87831e01116b10c7e724e38aa5ba178"
+      "sha256": "73656b5ba14009f95f944ce26f44046865980aba0c0cfede9c1b3db9702acc27"
     },
     "x86_64": {
       "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-x86_64-release.apk",
-      "sha256": "d75140ff066c20220f16d277142e6e47dff15dd9fca58f81b265ca42fd4c6684"
+      "sha256": "b44150586c949f64b239d0243b3c6b3239d17f0fc017a75c2c41ec80854be7eb"
     }
   },
-  "versionCode": 130,
-  "versionName": "1.5.5",
-  "notes": "v1.5.5：1) 改用固定 release 证书签名并开启 R8 混淆与优化，安装包从约 26–31MB 降到 12–17MB；2) 默认更新源改为内置 HTTPS 清单，新装用户无需手动配置即可检查更新；3) 修复 OTA 覆盖安装证书不一致的问题。重要提示：此前安装过 debug 签名版本的用户，因证书不同无法直接覆盖升级，需要卸载后重新安装本版本（卸载会清空本地规则与运行进度）。4) 活动配置热更新版本 8 同步上线，优化搜索发现、搜索入口与结果页判定。"
+  "versionCode": 131,
+  "versionName": "1.5.6",
+  "notes": "v1.5.6：1) 新增“运行环境与偏好设置 → 关于与合规”，可直接查看用户协议、隐私政策与第三方开源许可；2) 补充 LICENSE、用户协议、隐私政策文档；3) 其余与 v1.5.5 一致：固定 release 证书签名、R8 混淆优化、内置 HTTPS 更新源。重要提示：此前安装过 debug 签名版本的用户，因证书不同无法直接覆盖升级，需要卸载后重新安装（卸载会清空本地规则与运行进度）。"
 }

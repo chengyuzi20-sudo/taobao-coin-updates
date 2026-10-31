@@ -1,7 +1,7 @@
-v1.5.5 自动更新源（GitHub Pages）
+v1.5.6 自动更新源（GitHub Pages）
 
-当前版本：v1.5.5 (versionCode 130)，2026-10-31 构建。
-已发布版本：v1.3.2 (110) → v1.3.3 (111) → v1.4.0 (115) → v1.5.5 (130)。
+当前版本：v1.5.6 (versionCode 131)，2026-10-31 构建。
+已发布版本：v1.3.2 (110) → v1.3.3 (111) → v1.4.0 (115) → v1.5.5 (130) → v1.5.6 (131)。
 
 清单地址：
   APK 更新：https://chengyuzi20-sudo.github.io/taobao-coin-updates/update.json
