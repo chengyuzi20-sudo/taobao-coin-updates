@@ -1,23 +1,23 @@
 {
   "apks": {
     "arm64-v8a": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-arm64-v8a-release.apk",
-      "sha256": "75c04c4df2e1ae0804d39a3a1e6c9fc5e6a584dde3db6acd5dd43630241fa62f"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.7-arm64-v8a-release.apk",
+      "sha256": "2f0dda7e5231e48c771c86453ef8d684eb8ddc983cedafb9a62225bf52f1ab23"
     },
     "armeabi-v7a": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-armeabi-v7a-release.apk",
-      "sha256": "ce9a929933ce9fb4487b2ef218dc0a825847e85189d9eb4efdff3f0c5bae14fa"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.7-armeabi-v7a-release.apk",
+      "sha256": "e1fb4cd8fd74798bfc4c37c921e0d58105172bcf835b9fdab2da2a0bd132a4e4"
     },
     "x86": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-x86-release.apk",
-      "sha256": "73656b5ba14009f95f944ce26f44046865980aba0c0cfede9c1b3db9702acc27"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.7-x86-release.apk",
+      "sha256": "b8133a2edf5e339ac52526e0df593fe828e0cf67c874f7683522e0b219b70486"
     },
     "x86_64": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-x86_64-release.apk",
-      "sha256": "b44150586c949f64b239d0243b3c6b3239d17f0fc017a75c2c41ec80854be7eb"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.7-x86_64-release.apk",
+      "sha256": "9184218eb1884030d93287f86166d3af8b63973e7ba4cbf692890fbd2c256cd4"
     }
   },
-  "versionCode": 131,
-  "versionName": "1.5.6",
-  "notes": "v1.5.6：1) 新增“运行环境与偏好设置 → 关于与合规”，可直接查看用户协议、隐私政策与第三方开源许可；2) 补充 LICENSE、用户协议、隐私政策文档；3) 其余与 v1.5.5 一致：固定 release 证书签名、R8 混淆优化、内置 HTTPS 更新源。重要提示：此前安装过 debug 签名版本的用户，因证书不同无法直接覆盖升级，需要卸载后重新安装（卸载会清空本地规则与运行进度）。"
+  "versionCode": 132,
+  "versionName": "1.5.7",
+  "notes": "v1.5.7：修复 v1.5.5/v1.5.6 release 包 Shizuku 模式不可用（R8 剥离 CoinUserService）；恢复默认更新源的配置热更新；修复本地 ADB TLS 半死/截图重连、mDNS 端口误判与 Listener 竞态、端口扫描范围、Keystore 自愈、配对服务 stopSelf 竞态；修复引擎收尾二次断流、进度统计跨轮累加、弹窗误判、合并副标题、OCR 取消阻塞等。全量 145 项单测通过。重要提示：v1.5.4 及更早 debug 签名版本需先卸载；v1.5.5/v1.5.6 可直接覆盖升级。"
 }
