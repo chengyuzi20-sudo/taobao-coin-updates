@@ -1,23 +1,23 @@
 {
   "apks": {
     "arm64-v8a": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.10-arm64-v8a-release.apk",
-      "sha256": "efbee6c417ebbcc874092a9267972f9952cd7fa937c124ecfe7246038ceea7f5"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.11-arm64-v8a-release.apk",
+      "sha256": "9a2bfba978eb0db43dcc598554479e9df11d68917f4be70971016fd0fcb98380"
     },
     "armeabi-v7a": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.10-armeabi-v7a-release.apk",
-      "sha256": "9a31595492e2f0f0fb118d4c15c9416a12e51fca6c4dfcd30d3af6bd1c62e427"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.11-armeabi-v7a-release.apk",
+      "sha256": "493bd4f096901e692461115c85c55018facfa941d91d91debde1a9d7f169950b"
     },
     "x86": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.10-x86-release.apk",
-      "sha256": "4532c1b2f770e3450918ce888234a8c10b81d5bf3d844770d231b04dd4149ecf"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.11-x86-release.apk",
+      "sha256": "ca1d08469f2eb682c124bc2c60ecef64332a9c19eb4c04dc7e36cbce087a1055"
     },
     "x86_64": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.10-x86_64-release.apk",
-      "sha256": "5438845b5cec847c19d253ce682445bd8ff69ff786310ccbc74ea613514669f1"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.11-x86_64-release.apk",
+      "sha256": "af1ef1dcc82c7918de9d6db3c2071be2230f62af1f5b4c442c22dad5cac04b0a"
     }
   },
-  "versionCode": 135,
-  "versionName": "1.5.10",
-  "notes": "v1.5.10：修复任务结束延迟停服可能杀掉新一轮任务的竞态；旧 Service 实例销毁不再清空新实例或提前结束新一轮；遮挡弹窗达到 6 次后直接页面恢复，不再在遮挡帧点击；引擎错误回调使用当前活动上下文。全量 150 项单测通过。"
+  "versionCode": 136,
+  "versionName": "1.5.11",
+  "notes": "v1.5.11：新增首次使用引导（通知/悬浮窗/后台保护/控制服务/淘宝安装逐项检查与直达按钮）；新增每日 HH:mm 通知提醒（只通知，不自动点击），重启后自动重新调度；通知可点击回到助手。全量 150 项单测通过。"
 }
