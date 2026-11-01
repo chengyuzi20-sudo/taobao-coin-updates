@@ -1,23 +1,23 @@
 {
   "apks": {
     "arm64-v8a": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.11-arm64-v8a-release.apk",
-      "sha256": "9a2bfba978eb0db43dcc598554479e9df11d68917f4be70971016fd0fcb98380"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.12-arm64-v8a-release.apk",
+      "sha256": "a254935f2ec923896f0e335d95d5d94f1e3f8b8498e30ec5684c62b2ce02d40c"
     },
     "armeabi-v7a": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.11-armeabi-v7a-release.apk",
-      "sha256": "493bd4f096901e692461115c85c55018facfa941d91d91debde1a9d7f169950b"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.12-armeabi-v7a-release.apk",
+      "sha256": "8ddcb4c7e810e22bf2114fc43345d025bec58ad8a5bad259ce0fa7a84a3efaec"
     },
     "x86": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.11-x86-release.apk",
-      "sha256": "ca1d08469f2eb682c124bc2c60ecef64332a9c19eb4c04dc7e36cbce087a1055"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.12-x86-release.apk",
+      "sha256": "e6f84dffc9d53a10b5cd2be453076b9b3dcfbfc3b3d665417d5bc140288e37ce"
     },
     "x86_64": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.11-x86_64-release.apk",
-      "sha256": "af1ef1dcc82c7918de9d6db3c2071be2230f62af1f5b4c442c22dad5cac04b0a"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.12-x86_64-release.apk",
+      "sha256": "40ed0fd6644e9716b3a8812bf72067ffaee6a445d830e2a5fd00e3d6f9316d45"
     }
   },
-  "versionCode": 136,
-  "versionName": "1.5.11",
-  "notes": "v1.5.11：新增首次使用引导（通知/悬浮窗/后台保护/控制服务/淘宝安装逐项检查与直达按钮）；新增每日 HH:mm 通知提醒（只通知，不自动点击），重启后自动重新调度；通知可点击回到助手。全量 150 项单测通过。"
+  "versionCode": 137,
+  "versionName": "1.5.12",
+  "notes": "v1.5.12：新增纯逻辑 TaskSelection，日常/大促共用完成/规则跳过/毒丸/可执行筛选；跳过日志与统计按 task key 每轮只记一次；新增 3 项 TaskSelectionTest。全量 153 项单测通过。"
 }
