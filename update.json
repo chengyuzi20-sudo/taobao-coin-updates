@@ -1,23 +1,23 @@
 {
   "apks": {
     "arm64-v8a": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.7-arm64-v8a-release.apk",
-      "sha256": "2f0dda7e5231e48c771c86453ef8d684eb8ddc983cedafb9a62225bf52f1ab23"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.8-arm64-v8a-release.apk",
+      "sha256": "e32062463fa199b1500651c37e4545a92c49d3de5c62f621593a79be57d13a55"
     },
     "armeabi-v7a": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.7-armeabi-v7a-release.apk",
-      "sha256": "e1fb4cd8fd74798bfc4c37c921e0d58105172bcf835b9fdab2da2a0bd132a4e4"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.8-armeabi-v7a-release.apk",
+      "sha256": "2fca89c7896395aa5a3cc9dfbe047aea1cbcbdb3275fa80fe7459493817ba054"
     },
     "x86": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.7-x86-release.apk",
-      "sha256": "b8133a2edf5e339ac52526e0df593fe828e0cf67c874f7683522e0b219b70486"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.8-x86-release.apk",
+      "sha256": "a57addd11f5a613163fd85f82c828a588402c71c82c19ad27faa43266da919a1"
     },
     "x86_64": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.7-x86_64-release.apk",
-      "sha256": "9184218eb1884030d93287f86166d3af8b63973e7ba4cbf692890fbd2c256cd4"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.8-x86_64-release.apk",
+      "sha256": "c3f4b81de7ac8d6bf1ff3d7b27a31feef5707bebbcc375bb7d1eda51bd3a2595"
     }
   },
-  "versionCode": 132,
-  "versionName": "1.5.7",
-  "notes": "v1.5.7：修复 v1.5.5/v1.5.6 release 包 Shizuku 模式不可用（R8 剥离 CoinUserService）；恢复默认更新源的配置热更新；修复本地 ADB TLS 半死/截图重连、mDNS 端口误判与 Listener 竞态、端口扫描范围、Keystore 自愈、配对服务 stopSelf 竞态；修复引擎收尾二次断流、进度统计跨轮累加、弹窗误判、合并副标题、OCR 取消阻塞等。全量 145 项单测通过。重要提示：v1.5.4 及更早 debug 签名版本需先卸载；v1.5.5/v1.5.6 可直接覆盖升级。"
+  "versionCode": 133,
+  "versionName": "1.5.8",
+  "notes": "v1.5.8：长跑止损（90 分钟/400 步/120 步无完成自动停止）；新增 STOPPED/ABORTED，停止与安全验证不再误记完成；空帧保护；日常 21–60 秒浏览按声明时长；导航点击前前台守卫；libadb openStream 外层超时、主线程不再查询连接锁；配置固定包名+安全锚点+版本单调+坏配置回滚；移除 WRITE_SECURE_SETTINGS 自授权；失败自动保存诊断包，日志页支持诊断分享与“识别当前页（不点击）”；前台服务提前 startForeground、结束自动停服、运行中禁止安装更新。全量 150 项单测通过。"
 }
