@@ -1,23 +1,23 @@
 {
   "apks": {
     "arm64-v8a": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.9-arm64-v8a-release.apk",
-      "sha256": "3b384c5cdb6b1cedf6ffabf81e8a7902f3c832f1165807fb6a224d2172e872f8"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.10-arm64-v8a-release.apk",
+      "sha256": "efbee6c417ebbcc874092a9267972f9952cd7fa937c124ecfe7246038ceea7f5"
     },
     "armeabi-v7a": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.9-armeabi-v7a-release.apk",
-      "sha256": "7daa086df42c18d66959e78a9bb3b051fe6948cf096d90e9b49090e087fcb635"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.10-armeabi-v7a-release.apk",
+      "sha256": "9a31595492e2f0f0fb118d4c15c9416a12e51fca6c4dfcd30d3af6bd1c62e427"
     },
     "x86": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.9-x86-release.apk",
-      "sha256": "a62c421768942493bc2cfd7e8c4c2978cc60edf94c427d5a986b4ef913443ced"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.10-x86-release.apk",
+      "sha256": "4532c1b2f770e3450918ce888234a8c10b81d5bf3d844770d231b04dd4149ecf"
     },
     "x86_64": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.9-x86_64-release.apk",
-      "sha256": "827a7aed53ccfd46eec9e6885bdc3b1564984299cef92e1d59d652d97ff349df"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.10-x86_64-release.apk",
+      "sha256": "5438845b5cec847c19d253ce682445bd8ff69ff786310ccbc74ea613514669f1"
     }
   },
-  "versionCode": 134,
-  "versionName": "1.5.9",
-  "notes": "v1.5.9：任务时间线（任务开始/完成/跳过/毒丸/安全验证/诊断，最多 240 条）；诊断包 zip 分享；清理无调用方代码；CI 未配置签名时只构建 debug，release 校验 CoinUserService 与固定证书；发布脚本默认只更新 Pages；新增根 .gitignore、REFERENCE_NOTICE 与第三方许可补充。全量 150 项单测通过。"
+  "versionCode": 135,
+  "versionName": "1.5.10",
+  "notes": "v1.5.10：修复任务结束延迟停服可能杀掉新一轮任务的竞态；旧 Service 实例销毁不再清空新实例或提前结束新一轮；遮挡弹窗达到 6 次后直接页面恢复，不再在遮挡帧点击；引擎错误回调使用当前活动上下文。全量 150 项单测通过。"
 }
