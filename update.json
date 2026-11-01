@@ -1,23 +1,23 @@
 {
   "apks": {
     "arm64-v8a": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.12-arm64-v8a-release.apk",
-      "sha256": "a254935f2ec923896f0e335d95d5d94f1e3f8b8498e30ec5684c62b2ce02d40c"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.13-arm64-v8a-release.apk",
+      "sha256": "361847c22d858614e01b5963b2ebf88046116b610c7f3051d9652e11466d6a38"
     },
     "armeabi-v7a": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.12-armeabi-v7a-release.apk",
-      "sha256": "8ddcb4c7e810e22bf2114fc43345d025bec58ad8a5bad259ce0fa7a84a3efaec"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.13-armeabi-v7a-release.apk",
+      "sha256": "fee1569f8b55ebe131c91c449b7c10c93080d90c12f0019fb1c9cac16aad7092"
     },
     "x86": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.12-x86-release.apk",
-      "sha256": "e6f84dffc9d53a10b5cd2be453076b9b3dcfbfc3b3d665417d5bc140288e37ce"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.13-x86-release.apk",
+      "sha256": "8d2ac7b1b21cef5cb0302dc962754538694321e7d48c42edfeadc35ff39b7984"
     },
     "x86_64": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.12-x86_64-release.apk",
-      "sha256": "40ed0fd6644e9716b3a8812bf72067ffaee6a445d830e2a5fd00e3d6f9316d45"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.13-x86_64-release.apk",
+      "sha256": "3c6e082734a503efceaaac1f07b6d6068c4bab58d9f15433320081a009378324"
     }
   },
-  "versionCode": 137,
-  "versionName": "1.5.12",
-  "notes": "v1.5.12：新增纯逻辑 TaskSelection，日常/大促共用完成/规则跳过/毒丸/可执行筛选；跳过日志与统计按 task key 每轮只记一次；新增 3 项 TaskSelectionTest。全量 153 项单测通过。"
+  "versionCode": 138,
+  "versionName": "1.5.13",
+  "notes": "v1.5.13：修复首次使用引导的滚动区高度，在 AlertDialog 中不再出现只显示标题/按钮、看不到五项配置的问题；其余与 v1.5.12 一致（首次引导、每日提醒、任务时间线、诊断包、配置安全、长跑止损）。全量 153 项单测通过。"
 }
