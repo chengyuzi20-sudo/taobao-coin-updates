@@ -1,14 +1,15 @@
-v1.5.8 自动更新源（GitHub Pages）
+v1.5.9 自动更新源（GitHub Pages）
 
-当前版本：v1.5.8 (versionCode 133)，2026-11-01 构建。
-已发布版本：v1.3.2 (110) → v1.3.3 (111) → v1.4.0 (115) → v1.5.5 (130) → v1.5.6 (131) → v1.5.7 (132) → v1.5.8 (133)。
+当前版本：v1.5.9 (versionCode 134)，2026-11-01 构建。
+已发布版本：v1.3.2 (110) → v1.3.3 (111) → v1.4.0 (115) → v1.5.5 (130) → v1.5.6 (131) → v1.5.7 (132) → v1.5.8 (133) → v1.5.9 (134)。
 
 清单地址：
   APK 更新：https://chengyuzi20-sudo.github.io/taobao-coin-updates/update.json
   活动配置：https://chengyuzi20-sudo.github.io/taobao-coin-updates/profiles.json
 
 本目录文件：
-  app-1.5.8-<abi>-release.apk  v1.5.8 四个 ABI 的 release 签名包（版本化文件名，避免 CDN 旧包配新清单）
+  app-1.5.9-<abi>-release.apk  v1.5.9 四个 ABI 的 release 签名包（版本化文件名，避免 CDN 旧包配新清单）
+  app-1.5.8-<abi>-release.apk  v1.5.8 旧包，保留用于回退
   app-1.5.7-<abi>-release.apk  v1.5.7 旧包，保留用于回退
   app-<abi>-release.apk        v1.5.6 旧文件名，保留用于过渡；旧清单仍可下载
   update.json             APK 更新清单

@@ -6,6 +6,10 @@ e32062463fa199b1500651c37e4545a92c49d3de5c62f621593a79be57d13a55 *app-1.5.8-arm6
 2fca89c7896395aa5a3cc9dfbe047aea1cbcbdb3275fa80fe7459493817ba054 *app-1.5.8-armeabi-v7a-release.apk
 a57addd11f5a613163fd85f82c828a588402c71c82c19ad27faa43266da919a1 *app-1.5.8-x86-release.apk
 c3f4b81de7ac8d6bf1ff3d7b27a31feef5707bebbcc375bb7d1eda51bd3a2595 *app-1.5.8-x86_64-release.apk
+3b384c5cdb6b1cedf6ffabf81e8a7902f3c832f1165807fb6a224d2172e872f8 *app-1.5.9-arm64-v8a-release.apk
+7daa086df42c18d66959e78a9bb3b051fe6948cf096d90e9b49090e087fcb635 *app-1.5.9-armeabi-v7a-release.apk
+a62c421768942493bc2cfd7e8c4c2978cc60edf94c427d5a986b4ef913443ced *app-1.5.9-x86-release.apk
+827a7aed53ccfd46eec9e6885bdc3b1564984299cef92e1d59d652d97ff349df *app-1.5.9-x86_64-release.apk
 75c04c4df2e1ae0804d39a3a1e6c9fc5e6a584dde3db6acd5dd43630241fa62f *app-arm64-v8a-release.apk
 ce9a929933ce9fb4487b2ef218dc0a825847e85189d9eb4efdff3f0c5bae14fa *app-armeabi-v7a-release.apk
 73656b5ba14009f95f944ce26f44046865980aba0c0cfede9c1b3db9702acc27 *app-x86-release.apk

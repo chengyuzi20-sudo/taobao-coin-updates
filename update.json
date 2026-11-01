@@ -1,23 +1,23 @@
 {
   "apks": {
     "arm64-v8a": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.8-arm64-v8a-release.apk",
-      "sha256": "e32062463fa199b1500651c37e4545a92c49d3de5c62f621593a79be57d13a55"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.9-arm64-v8a-release.apk",
+      "sha256": "3b384c5cdb6b1cedf6ffabf81e8a7902f3c832f1165807fb6a224d2172e872f8"
     },
     "armeabi-v7a": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.8-armeabi-v7a-release.apk",
-      "sha256": "2fca89c7896395aa5a3cc9dfbe047aea1cbcbdb3275fa80fe7459493817ba054"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.9-armeabi-v7a-release.apk",
+      "sha256": "7daa086df42c18d66959e78a9bb3b051fe6948cf096d90e9b49090e087fcb635"
     },
     "x86": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.8-x86-release.apk",
-      "sha256": "a57addd11f5a613163fd85f82c828a588402c71c82c19ad27faa43266da919a1"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.9-x86-release.apk",
+      "sha256": "a62c421768942493bc2cfd7e8c4c2978cc60edf94c427d5a986b4ef913443ced"
     },
     "x86_64": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.8-x86_64-release.apk",
-      "sha256": "c3f4b81de7ac8d6bf1ff3d7b27a31feef5707bebbcc375bb7d1eda51bd3a2595"
+      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.9-x86_64-release.apk",
+      "sha256": "827a7aed53ccfd46eec9e6885bdc3b1564984299cef92e1d59d652d97ff349df"
     }
   },
-  "versionCode": 133,
-  "versionName": "1.5.8",
-  "notes": "v1.5.8：长跑止损（90 分钟/400 步/120 步无完成自动停止）；新增 STOPPED/ABORTED，停止与安全验证不再误记完成；空帧保护；日常 21–60 秒浏览按声明时长；导航点击前前台守卫；libadb openStream 外层超时、主线程不再查询连接锁；配置固定包名+安全锚点+版本单调+坏配置回滚；移除 WRITE_SECURE_SETTINGS 自授权；失败自动保存诊断包，日志页支持诊断分享与“识别当前页（不点击）”；前台服务提前 startForeground、结束自动停服、运行中禁止安装更新。全量 150 项单测通过。"
+  "versionCode": 134,
+  "versionName": "1.5.9",
+  "notes": "v1.5.9：任务时间线（任务开始/完成/跳过/毒丸/安全验证/诊断，最多 240 条）；诊断包 zip 分享；清理无调用方代码；CI 未配置签名时只构建 debug，release 校验 CoinUserService 与固定证书；发布脚本默认只更新 Pages；新增根 .gitignore、REFERENCE_NOTICE 与第三方许可补充。全量 150 项单测通过。"
 }
