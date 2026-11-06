@@ -1,23 +1,23 @@
 {
-  "apks": {
-    "arm64-v8a": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.13-arm64-v8a-release.apk",
-      "sha256": "361847c22d858614e01b5963b2ebf88046116b610c7f3051d9652e11466d6a38"
-    },
-    "armeabi-v7a": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.13-armeabi-v7a-release.apk",
-      "sha256": "fee1569f8b55ebe131c91c449b7c10c93080d90c12f0019fb1c9cac16aad7092"
-    },
-    "x86": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.13-x86-release.apk",
-      "sha256": "8d2ac7b1b21cef5cb0302dc962754538694321e7d48c42edfeadc35ff39b7984"
-    },
-    "x86_64": {
-      "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.5.13-x86_64-release.apk",
-      "sha256": "3c6e082734a503efceaaac1f07b6d6068c4bab58d9f15433320081a009378324"
-    }
-  },
-  "versionCode": 138,
-  "versionName": "1.5.13",
-  "notes": "v1.5.13：修复首次使用引导的滚动区高度，在 AlertDialog 中不再出现只显示标题/按钮、看不到五项配置的问题；其余与 v1.5.12 一致（首次引导、每日提醒、任务时间线、诊断包、配置安全、长跑止损）。全量 153 项单测通过。"
+    "apks":  {
+                 "arm64-v8a":  {
+                                   "url":  "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.6.3-arm64-v8a-release.apk",
+                                   "sha256":  "53cf7e4a7058cdedf111a22451ef1dc2034e1791bd65f1b720a612d401c47f53"
+                               },
+                 "armeabi-v7a":  {
+                                     "url":  "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.6.3-armeabi-v7a-release.apk",
+                                     "sha256":  "12f3ab6ca3dd76a1469f21e867bb73d5bdc0393880a1488b20afc45f552b5e7b"
+                                 },
+                 "x86":  {
+                             "url":  "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.6.3-x86-release.apk",
+                             "sha256":  "90bc6a71a8fdf76fe3fa7f7165fac655a84bcb891656f5a39fd3371c5ff5cce6"
+                         },
+                 "x86_64":  {
+                                "url":  "https://chengyuzi20-sudo.github.io/taobao-coin-updates/app-1.6.3-x86_64-release.apk",
+                                "sha256":  "549c5d55fdbc07baf683b49a7395bcfb877753f6b2cb08964591274e1893d37d"
+                            }
+             },
+    "versionCode":  153,
+    "versionName":  "1.6.3",
+    "notes":  "修复搜索任务标题被 OCR 读成“搜一嫂”时误判为普通浏览、计数器不涨的问题；其余同 v1.6.2（系统弹窗等待上限与自动关闭、OCR 变体任务身份归一、搜索发现页识别与关键词兜底、OTA overlay 校验、赛车页恢复重试）。"
 }

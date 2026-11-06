@@ -1,33 +1,37 @@
-v1.5.13 自动更新源（GitHub Pages）
+v1.6.3 自动更新源（GitHub Pages）
 
-当前版本：v1.5.13 (versionCode 138)，2026-11-01 构建。
-已发布版本：v1.3.2 (110) → v1.3.3 (111) → v1.4.0 (115) → v1.5.5 (130) → v1.5.6 (131) → v1.5.7 (132) → v1.5.8 (133) → v1.5.9 (134) → v1.5.10 (135) → v1.5.11 (136) → v1.5.12 (137) → v1.5.13 (138)。
+当前版本：v1.6.3 (versionCode 153)，2026-11-06 构建。
+上一版本：v1.6.2 (152)，回退包保存在 ../v1.6.2/。
 
 清单地址：
   APK 更新：https://chengyuzi20-sudo.github.io/taobao-coin-updates/update.json
   活动配置：https://chengyuzi20-sudo.github.io/taobao-coin-updates/profiles.json
 
 本目录文件：
-  app-1.5.13-<abi>-release.apk v1.5.13 四个 ABI 的 release 签名包（版本化文件名，避免 CDN 旧包配新清单）
-  app-1.5.12-<abi>-release.apk v1.5.12 旧包，保留用于回退
-  app-1.5.11-<abi>-release.apk v1.5.11 旧包，保留用于回退
-  app-<abi>-release.apk        v1.5.6 旧文件名，保留用于过渡；旧清单仍可下载
-  update.json             APK 更新清单
-  profiles.json           活动配置清单
-  profiles/taobao.json    活动配置正文
-  SHA256SUMS.txt          校验值
+  app-1.6.3-<abi>-release.apk  v1.6.3 四个 ABI 的 release 签名包
+  update.json                  APK 更新清单（当前仅指向 v1.6.3）
+  profiles.json                活动配置清单（version 10，schemaVersion 1）
+  profiles/taobao.json         活动配置正文（含赛场 race 区域与新锚点）
+  SHA256SUMS.txt               本目录 APK 的校验值（当前 4 个 v1.6.3 包）
+
+清理说明：
+  为控制仓库体积，本目录只保留当前版本 APK；v1.5.7 ~ v1.5.13 的旧包已从工作区
+  删除，但仍保留在 dist/pages-upload/.git 历史中。v1.5.14 ~ v1.6.2 没有提交到本
+  仓库（Pages 只需要 update.json 指向的当前版本），回退包保存在同级 dist/v<版本>/。
+  发布说明与旧校验值已归档到 archive/legacy-dist/notes/。
 
 签名说明：
   v1.5.5 起使用固定 release 证书（SHA-256: 6f86a2e10a6906b19a77e6c2c08c8da642a378c81c0833a12fb43c366c9fe46b）。
   此前安装过 debug 签名版本的用户无法覆盖安装，需要卸载后重新安装一次；
   此后所有版本继续使用同一张证书，OTA 可正常覆盖升级。
-  证书文件保存在项目外层的 keys/ 目录，keystore.properties 已被 gitignore。
+  签名文件与口令应保存在本机安全位置/CI Secret 中，不要随项目目录打包分发。
 
 以后发新版：
-  1. 在 source_taobao_coin_assistant 执行 tools/publish_release.ps1（会构建 release 包并更新本地 Pages 暂存）；
+  1. 在 source_taobao_coin_assistant 执行：
+       powershell -ExecutionPolicy Bypass -File tools/publish_release.ps1 -Version 1.6.4 -VersionCode 154 -Notes "..."
   2. 确认本目录生成 app-<版本>-<abi>-release.apk，且 update.json 指向版本化 URL；
   3. 校验 SHA256SUMS.txt 与 update.json 中的 sha256 一致；
-  4. git add . && git commit -m "Release vX.Y.Z" && git push。
+  4. git add . && git commit -m "Release v1.6.4" && git push。
   Pages 通常 1–2 分钟生效。
 
 说明：

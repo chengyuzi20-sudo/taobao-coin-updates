@@ -1,10 +1,11 @@
 {
+  "schemaVersion": 1,
   "profiles": [
     {
       "id": "taobao",
-      "version": 8,
+      "version": 10,
       "url": "https://chengyuzi20-sudo.github.io/taobao-coin-updates/profiles/taobao.json",
-      "sha256": "425a0d5c94dc90e19e6749a15d8278732956e2f1a26d9366722d20eaaa0de528"
+      "sha256": "821479ff6af4c8813786f8e9c88da4b9bde792e97d214c618feefcff107e0106"
     }
   ]
 }

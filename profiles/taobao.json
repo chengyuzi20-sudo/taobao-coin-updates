@@ -9,7 +9,8 @@
     "nav": { "top": 80, "bottom": 60, "minY": 80, "maxWidth": 840, "maxBottom": 0.72 },
     "panel": { "top": 120, "bottom": 70, "minY": 140, "maxWidth": 840, "maxBottom": 0.94 },
     "search": { "top": 90, "bottom": 60, "minY": 90, "maxWidth": 860, "maxBottom": 0.62 },
-    "taskList": { "top": 190, "bottom": 70, "minY": 190, "maxWidth": 960, "maxBottom": 1.0 }
+    "taskList": { "top": 190, "bottom": 70, "minY": 190, "maxWidth": 960, "maxBottom": 1.0 },
+    "race": { "top": 80, "bottom": 80, "minY": 80, "maxWidth": 960, "maxBottom": 1.0 }
   },
   "anchors": {
     "coinHome": ["淘金币", "搜索抵钱", "玩游戏", "找好友", "快速赚", "明天可领", "后天", "铂金会员", "足迹加抵", "升级赛车", "去赚金币", "去赚能量", "明日领", "日常版"],
@@ -27,10 +28,11 @@
     "coinCollapsed": ["更多金币等你赚"],
     "coinQuickEarn": ["今日速赚"],
     "coinClassic": ["赚金币抵钱", "今日累计奖励"],
+    "coinClassicHeader": ["今日累计奖励"],
     "coinQuickDone": ["今日快速赚奖励已拿完", "快速赚奖励已拿完"],
     "coinTomorrow": ["记得明天再来"],
     "coinExpand": ["展开"],
-    "coinMore": ["更多金币等你赚", "更多金币"],
+    "coinMore": ["赚更多金币"],
     "coinTaskActions": ["领取奖励", "去完成", "去逛逛", "逛一逛", "去浏览", "去看看", "去领取", "立即领", "搜一下", "搜一搜", "逛一下", "点击得", "去领币", "立即领取", "点击领取", "去查看", "去参与", "去开启", "去兑换"],
     "coinPreferred": ["搜一搜", "浏览", "好物", "精选", "沉浸看", "看看#", "逛逛", "逛一逛", "点击去逛"],
     "coinExpandedHints": ["发现精选好物", "淘金币趣味课堂", "任务到访得金币", "逛清单", "看看你关注", "搜一搜你心仪的宝贝", "更多专享福利"],
@@ -50,6 +52,11 @@
     "campaignProduct": ["金币已抵", "金币热卖价"],
     "campaignClaim": ["立即领取", "领取奖励"],
     "campaignTaskDone": ["任务已完成", "奖励已发放", "已完成浏览"],
+    "raceUpgrade": ["升级赛车拿钱", "升级赛车拿线", "长按可加速升级", "长按可加速", "松手开始加速升级", "加速升级中", "已累计升级", "已计升级"],
+    "raceUpgradeBusy": ["加速升级中", "松手开始加速升级", "预计将加速升级"],
+    "raceStyleModal": ["确认选择", "款式选择不影响奖励", "点击关闭将随机为您选择", "解锁新尾翼", "解锁新涂装", "解锁新车轮", "解锁新车身", "获得加抵金"],
+    "raceTrapModal": ["请选择正确的选项", "省钱大发明", "淘金仔", "去支付宝农场", "领肥料", "送你能量"],
+    "raceSwitch": ["活动版", "升级赛车", "去比赛"],
     "verification": ["请拖动下方滑块完成验证", "请拖动下方滑块", "验证失败", "通过验证以确保正常访问", "请按住滑块", "拖动到最右边", "向右拖动", "请完成安全验证", "请完成验证", "滑动验证", "滑块验证", "人机验证", "验证码", "访问过于频繁", "网络环境存在风险", "账号存在风险", "异常流量"],
     "popupStrong": ["已尝试添加组件", "再次添加", "前往桌面", "添加失败", "一键享受金币额外抵扣", "你加购的", "出行玩乐", "订票订酒店", "闪购福利"],
     "popupWeak": ["淘宝闪购", "加抵金", "抵金", "额外抵", "去看看"],
@@ -70,6 +77,21 @@
         "deepLink": ""
       },
       "runtimeId": "campaignTaskList"
+    },
+    {
+      "id": "taobao.campaign.double11.upgrade",
+      "displayName": "双十一赛车升级",
+      "window": { "start": "10-14", "end": "11-14" },
+      "priority": 95,
+      "fallback": false,
+      "probe": {
+        "type": "pageMarker",
+        "strong": ["升级赛车拿钱", "长按可加速", "松手开始加速升级", "加速升级中"],
+        "weak": ["双11", "全场", "20亿加抵", "已累计升级", "加抵金", "去比赛"],
+        "entryKeywords": ["淘金币", "升级赛车"],
+        "deepLink": ""
+      },
+      "runtimeId": "campaignRaceUpgrade"
     },
     {
       "id": "taobao.campaign.618",
